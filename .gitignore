@@ -1,0 +1,26 @@
+# Environment secrets
+.env
+
+# Rust
+backend/target/
+
+# Kotlin / Gradle / Android
+mobile/.gradle/
+mobile/build/
+mobile/composeApp/build/
+mobile/iosApp/build/
+mobile/local.properties
+*.iml
+.idea/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-data/
